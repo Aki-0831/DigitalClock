@@ -1,0 +1,45 @@
+<!--
+	学校名 勝田工業高等学校
+ 	作成者 内藤 彰人
+ 	林 亮汰
+ -->
+
+
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+
+<meta charset="UTF-8">
+<title>でじたるどけい</title>
+<link rel="stylesheet" href="stylesheetchan.css">
+<script type="text/javascript" src="mainchan.js"></script>
+
+<script src="jquery-1.10.2.min.js" type="text/javascript"></script>
+<script src="jquery.tubular.1.0.js" type="text/javascript"></script>
+<script>
+$(function(){
+    $('document').ready(function() {
+        var options = { videoId: 'JGwWNGJdvx8',mute: false};
+        $('#movie').tubular(options);
+    });
+});
+</script>
+
+</head>
+<body>
+
+<div class="outer">
+	<div class="inner">
+		<div id="movie"></div>
+		<!-- 時刻部分 -->
+		<div id="clock_time"></div>
+		<!-- 日付部分 -->
+		<div id="clock_date"></div>
+	</div>
+</div>
+
+<p>かつこーどけい</p>
+
+</body>
+</html>
